@@ -18,6 +18,7 @@ For this tutorial, you just need to be aware of:
 - [Gazebo : Tutorial : Gazebo Components](http://gazebosim.org/tutorials?tut=components)
 - [Gazebo : Tutorial : Make a Model](http://gazebosim.org/tutorials?tut=build_model)
 - [Gazebo : Tutorial : Building a World](http://gazebosim.org/tutorials?tut=build_world)
+- [Specifying pose in SDFormat](http://sdformat.org/tutorials?tut=specify_pose)
 
 ## Build and Install the code
 Follow these steps to build and properly install your module: 
