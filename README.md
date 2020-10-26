@@ -48,10 +48,10 @@ After you installed the repository, open Gazebo by running the `gazebo` command 
 ~~~
 gazebo
 ~~~
-In the list of models in the panel on the left, you can find the 
+In the list of models in the panel on the left, you can find the `simple_object` model, drag it in the GUI to spawn an instance of it in the simulation.
 
 ### Spawn from a world file 
-You can also run directly a simulation from a world fine that contains all the models that needs to be simulated, 
+You can also run directly a simulation from a world file that contains all the models that needs to be simulated, 
 by running gazebo from the terminal followed by the name of the world file: 
 ~~~
 gazebo simple_object_world.sdf
