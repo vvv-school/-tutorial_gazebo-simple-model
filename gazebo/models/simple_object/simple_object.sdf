@@ -1,8 +1,9 @@
 <?xml version='1.0'?>
 <sdf version="1.5">
-  <model name="simple_model">
-    <!-- This is the initial pose of the object -->
-    <pose>0 0 0.5 0 0 0</pose>
+  <model name="simple_object">
+    <!-- This is the initial pose of the object, it can 
+          be overriden by the world that includes this model. -->
+    <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
     <!-- If the static option is true, the object will not move  -->
     <static>true</static>
     <link name="link">
@@ -27,9 +28,9 @@
            of the object. -->
       <collision name="collision">
         <geometry>
-          <box>
-            <size>1 1 1</size>
-          </box>
+          <mesh>
+            <uri>model://simple_object/simple_object.stl</uri>
+          </mesh>
         </geometry>
       </collision>
       <!-- The visual element specifies the shape of the object 
@@ -37,9 +38,9 @@
            of the object for visualization and cameras. -->
       <visual name="visual">
         <geometry>
-          <box>
-            <size>1 1 1</size>
-          </box>
+          <mesh>
+            <uri>model://simple_object/simple_object.stl</uri>
+          </mesh>       
         </geometry>
       </visual>
     </link>

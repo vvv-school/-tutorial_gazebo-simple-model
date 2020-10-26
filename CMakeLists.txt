@@ -19,5 +19,9 @@ icubcontrib_set_default_prefix()
 # Install models
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/gazebo/models DESTINATION share/gazebo)
 
+# Install worlds
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/gazebo/worlds DESTINATION share/gazebo)
+
+
 # generate ad-hoc project to perform "make uninstall"
 icubcontrib_add_uninstall_target()
