@@ -1,7 +1,7 @@
 # tutorial_gazebo-simple-model
 This tutorial shows how to create a simple single body model and how to spawn it in the [Gazebo simulator](http://gazebosim.org/). 
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vvv-school/tutorial_gazebo-simple-model)
+[![Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
 
 ## Prerequisites
 
